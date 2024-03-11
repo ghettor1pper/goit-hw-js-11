@@ -1,4 +1,3 @@
-
 export async function searchImages(searchTerm) {
   const searchParams = new URLSearchParams({
     key: '42800487-0338ab50e10ef15f71fc3313e',

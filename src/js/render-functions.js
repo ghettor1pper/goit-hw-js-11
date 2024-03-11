@@ -10,7 +10,8 @@ export function clearGallery() {
 
 export function renderGallery(images) {
   const markup = images
-    .map(image =>
+    .map(
+      image =>
         `<li class="gallery-item">
       <a class="gallery-link" href="${image.largeImageURL}">
         <img

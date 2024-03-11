@@ -19,7 +19,8 @@ async function handleClickSearch(event) {
   clearGallery();
   if (images.length === 0) {
     iziToast.error({
-      message: 'Sorry, there are no images matching your search query. Please try again!',
+      message:
+        'Sorry, there are no images matching your search query. Please try again!',
     });
     return;
   }
