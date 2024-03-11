@@ -18,7 +18,7 @@ async function handleClickSearch(event) {
   loader.classList.add('hidden');
   clearGallery();
   if (images.length === 0) {
-    iziToast.show({
+    iziToast.error({
       message: 'Sorry, there are no images matching your search query. Please try again!',
     });
     return;
